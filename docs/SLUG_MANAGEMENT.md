@@ -4,7 +4,7 @@ This document explains the dynamic URL system that automatically updates all ref
 
 ## Overview
 
-When a subject page slug is changed in Sanity (e.g., from "english" to "online-dubai-english-tutor"), the system automatically:
+When a subject page slug is changed in Sanity (e.g., from "english" to "online-abu-dhabi-english-tutor"), the system automatically:
 
 1. Updates all links in the subject grid on the homepage
 2. Updates the "Hire a Tutor" button links for tutors associated with that subject
@@ -72,7 +72,7 @@ const MyComponent = () => {
 
 1. Always use the slug manager or hook instead of hardcoding subject page URLs
 2. When setting a tutor's "Hire Button Link" in Sanity, use the format:
-   - `/{slug}#contact-form` (e.g., "/online-dubai-english-tutor#contact-form")
+   - `/{slug}#contact-form` (e.g., "/online-abu-dhabi-english-tutor#contact-form")
 3. For the homepage link, use "/#contact-form"
 
 ## Troubleshooting

@@ -15,7 +15,7 @@ import {apiVersion, dataset, projectId} from './sanity/env'
 
 export default defineConfig({
   name: 'default',
-  title: 'Dubai Tutors',
+  title: 'Abu Dhabi Tutors',
 
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || '',
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || '',
@@ -44,10 +44,10 @@ export default defineConfig({
       'https://*.vercel.app',
       'https://ibtutorsae-c4ingsmn1-vicky-lius-projects.vercel.app',
       'https://ibtutorsae.vercel.app',
-      'https://dubai-tutors.vercel.app',
-      'https://dubai-tutors-*.vercel.app',
-      'https://dubaitutors.ae',
-      'https://www.dubaitutors.ae'
+      'https://abu-dhabi-tutors.vercel.app',
+      'https://abu-dhabi-tutors-*.vercel.app',
+      'https://abudhabitutors.ae',
+      'https://www.abudhabitutors.ae'
     ]
   },
   api: {
